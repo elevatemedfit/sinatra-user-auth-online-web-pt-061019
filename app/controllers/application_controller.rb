@@ -8,12 +8,11 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    puts params
     erb :home
   end
 
   get '/registrations/signup' do
-
+        puts params
     erb :'/registrations/signup'
   end
 
